@@ -1,0 +1,57 @@
+body {
+    font-family: 'Work Sans',sans-serif;
+}
+
+.heading {
+    font-size:44px;
+    font-weight:200;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numpads {
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    box-shadow:5px 5px 25px 0px rgba(46,61,73,0.2);
+}
+
+.row {
+    flex:1;
+    display:flex;
+}
+
+small {
+    margin-top:100px;
+}
+
+.row button {
+    flex:1;
+    padding:1.5rem;
+    font-size:20px;
+    background:none;
+    border:none;
+    font-family: 'Work Sans',sans-serif;
+    transition: all 0.3s ease;
+    outline:none;
+}
+
+.row button:hover {
+    background-color:#000;
+    color:#fff;
+    transform:scale(1.1);
+}
+
+.expression-text {
+    font-size:50px;
+    font-weight: 200;
+}
+
+.fa {
+    color:black;
+}
+
